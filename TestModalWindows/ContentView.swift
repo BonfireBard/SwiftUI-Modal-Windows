@@ -1,30 +1,30 @@
 import SwiftUI
 
-struct ContentView: View {
-  @State private var isModalPresented = false
-  @State private var modalHeight: CGFloat = 100 // Initial height
-  
-  var body: some View {
-    ZStack {
-      VStack {
-        Image(systemName: "globe")
-          .imageScale(.large)
-          .foregroundStyle(.tint)
-        Text("Hello, world!")
-        Button("Show Modal") {
-          isModalPresented.toggle()
-        }
-      }
-      .padding()
-      
-      if isModalPresented {
-        ModalWindow(height: $modalHeight, isPresented: $isModalPresented)
-          .transition(.move(edge: .bottom))
-          .animation(.spring(), value: isModalPresented)
-      }
-    }
-  }
-}
+//struct ContentView: View {
+//  @State private var isModalPresented = false
+//  @State private var modalHeight: CGFloat = 100 // Initial height
+//
+//  var body: some View {
+//    ZStack {
+//      VStack {
+//        Image(systemName: "globe")
+//          .imageScale(.large)
+//          .foregroundStyle(.tint)
+//        Text("Hello, world!")
+//        Button("Show Modal") {
+//          isModalPresented.toggle()
+//        }
+//      }
+//      .padding()
+//
+//      if isModalPresented {
+//        ModalWindow(height: $modalHeight, isPresented: $isModalPresented)
+//          .transition(.move(edge: .bottom))
+//          .animation(.spring(), value: isModalPresented)
+//      }
+//    }
+//  }
+//}
 
 struct ModalWindow: View {
   @Binding var height: CGFloat
