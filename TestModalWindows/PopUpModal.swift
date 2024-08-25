@@ -56,33 +56,33 @@ extension View {
   }
 }
 
-struct ContentView: View {
-  @State private var isModalPresented = false
-  
-  var body: some View {
-    VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, world!")
-      Button("Show Modal") {
-        isModalPresented.toggle()
-      }
-    }
-    .padding()
-    .popUpModal(isPresented: $isModalPresented) {
-      VStack(spacing: 20) {
-        Text("Modal Content")
-          .font(.headline)
-        Text("This pop-up modal adjusts to content size without using GeometryReader.")
-        Text("This pop-up modal adjusts to content size without using GeometryReader.")
-        Text("This pop-up modal adjusts to content size without using GeometryReader.")
-          .multilineTextAlignment(.center)
-        Button("Close") {
-          isModalPresented = false
-        }
-      }
-      .padding(30)
-    }
-  }
-}
+//struct ContentView: View {
+//  @State private var isModalPresented = false
+//  
+//  var body: some View {
+//    VStack {
+//      Image(systemName: "globe")
+//        .imageScale(.large)
+//        .foregroundStyle(.tint)
+//      Text("Hello, world!")
+//      Button("Show Modal") {
+//        isModalPresented.toggle()
+//      }
+//    }
+//    .padding()
+//    .popUpModal(isPresented: $isModalPresented) {
+//      VStack(spacing: 20) {
+//        Text("Modal Content")
+//          .font(.headline)
+//        Text("This pop-up modal adjusts to content size without using GeometryReader.")
+//        Text("This pop-up modal adjusts to content size without using GeometryReader.")
+//        Text("This pop-up modal adjusts to content size without using GeometryReader.")
+//          .multilineTextAlignment(.center)
+//        Button("Close") {
+//          isModalPresented = false
+//        }
+//      }
+//      .padding(30)
+//    }
+//  }
+//}

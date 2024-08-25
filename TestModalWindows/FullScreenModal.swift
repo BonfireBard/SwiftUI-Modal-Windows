@@ -85,23 +85,23 @@ extension View {
   }
 }
 
-struct ContentView: View {
-  @State private var isModalPresented = false
-  
-  var body: some View {
-    VStack {
-      Image(systemName: "globe")
-        .imageScale(.large)
-        .foregroundStyle(.tint)
-      Text("Hello, world!")
-      Button("Show Modal") {
-        isModalPresented.toggle()
-      }
-    }
-    .padding()
-    .fullScreenModal(isPresented: $isModalPresented) {
-      Text("Modal Content Test")
-        .padding()
-    }
-  }
-}
+//struct ContentView: View {
+//  @State private var isModalPresented = false
+//  
+//  var body: some View {
+//    VStack {
+//      Image(systemName: "globe")
+//        .imageScale(.large)
+//        .foregroundStyle(.tint)
+//      Text("Hello, world!")
+//      Button("Show Modal") {
+//        isModalPresented.toggle()
+//      }
+//    }
+//    .padding()
+//    .fullScreenModal(isPresented: $isModalPresented) {
+//      Text("Modal Content Test")
+//        .padding()
+//    }
+//  }
+//}
