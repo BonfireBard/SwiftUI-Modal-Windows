@@ -12,6 +12,7 @@
 		CE1BA3FC2C7AB005001D5D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1BA3FB2C7AB005001D5D75 /* Assets.xcassets */; };
 		CE1BA3FF2C7AB005001D5D75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE1BA3FE2C7AB005001D5D75 /* Preview Assets.xcassets */; };
 		CE1BA4082C7AB696001D5D75 /* FullScreenModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA4072C7AB696001D5D75 /* FullScreenModal.swift */; };
+		CE1BA40C2C7ABAC4001D5D75 /* PopUpModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1BA40B2C7ABAC4001D5D75 /* PopUpModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		CE1BA3FB2C7AB005001D5D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE1BA3FE2C7AB005001D5D75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE1BA4072C7AB696001D5D75 /* FullScreenModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenModal.swift; sourceTree = "<group>"; };
+		CE1BA40B2C7ABAC4001D5D75 /* PopUpModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				CE1BA3FB2C7AB005001D5D75 /* Assets.xcassets */,
 				CE1BA3FD2C7AB005001D5D75 /* Preview Content */,
 				CE1BA4072C7AB696001D5D75 /* FullScreenModal.swift */,
+				CE1BA40B2C7ABAC4001D5D75 /* PopUpModal.swift */,
 			);
 			path = TestModalWindows;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE1BA40C2C7ABAC4001D5D75 /* PopUpModal.swift in Sources */,
 				CE1BA4082C7AB696001D5D75 /* FullScreenModal.swift in Sources */,
 				CE1BA3FA2C7AB004001D5D75 /* ContentView.swift in Sources */,
 				CE1BA3F82C7AB004001D5D75 /* TestModalWindowsApp.swift in Sources */,
